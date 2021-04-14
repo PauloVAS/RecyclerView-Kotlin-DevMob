@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
         val users: ArrayList<String> = ArrayList()
         for (i in 1..100) {
-            users.add("Daniel Malone #" + i)
+            users.add("Dupla:Paulo Vitor e Lucas Godoy # #" + i)
         }
 
         recyclerView.layoutManager = LinearLayoutManager(this)
